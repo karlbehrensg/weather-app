@@ -33,6 +33,10 @@ function App() {
           <div className="location">Santiago, CL</div>
           <div className="date">{dateBuilder(new Date())}</div>
         </div>
+        <div className="weather-box">
+          <div className="temperature">20ºC</div>
+          <div className="weather">Sunny</div>
+        </div>
       </main>
     </div>
   );
